@@ -18,6 +18,9 @@ body::-webkit-scrollbar{
     background: var(--primarycl);
     min-height: 5vh
 }
+.nav{
+  z-index:1;
+}
 .navbar{
     background: var(--white);
     height: 15vh;
@@ -84,7 +87,19 @@ body::-webkit-scrollbar{
     display: flex;align-items: center;
     justify-content: center;
     gap: 5vw;
-
+    z-index:-1;
+}
+.supera{
+    display: flex;align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    z-index:-1;
+}
+.superb{
+    display: flex;align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    z-index:-1;
 }
 .card-1:hover{
     transform: scale(110%);
