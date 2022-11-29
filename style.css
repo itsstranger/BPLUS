@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+:root{
+    --primarycl: #04006e;
+    --secondarycl: rgb(213, 213, 213);
+    --white:#fff;
+    
+    font-family: montserrat;
+}
+.blarea{
+    background: var(--primarycl);
+    min-height: 5vh
+}
+.navbar{
+    background: var(--white);
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.logo{
+    width: 8vw;
+}
+.logo img{
+    display: block;
+    width: 100%;
+}
+.list ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+.list ul a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    position: relative;
+}
+.list ul a::after{
+    content: '';
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    right: -10px;
+    background: var(--primarycl);
+
+}
+
+.one::after{
+    content: '';
+    width: 0;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background: var(--primarycl);
+    display: none;
+
+}
+.new-arrival{
+
+    height: 60vh;
+    overflow: hidden;
+    background: url(./3.jpg);
+    background-size: cover;
+    background-position:center;
+    /* overflow-x: auto; */
+}
+.wrapper{
+    display: flex;
+}
+.space{
+    min-height: 5vh;}
+.super{
+    display: flex;align-items: center;
+    justify-content: center;
+    gap: 5vw;
+
+}
+.card-1:hover{
+    transform: scale(110%);
+    background: var(--primarycl);
+    color: var(--white);
+}
+.card-2:hover{
+    transform: scale(110%);
+    background: var(--primarycl);
+    color: var(--white);
+}
+.card-3:hover{
+    transform: scale(110%);
+    background: var(--primarycl);
+    color: var(--white);
+}
+.card-4:hover{
+    transform: scale(110%);
+    background: var(--primarycl);
+    color: var(--white);
+}
+.model{
+    width: 14vw;
+    /* border-radius: 10px; */
+}
+.data{
+    width: 14vw;
+}
+.card-1, .card-2, .card-3, .card-4{
+    background: var(--secondarycl);
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1%;
+    transition: all 0.3s linear;
+    /* border-radius: 10px; */
+}
+.data h1{
+    font-size: 1rem;
+}
+.z{
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    align-items: center;
+}
+.z img{
+    width:8vw;
+    border-radius: 50%;
+}
+.b{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.writers{
+    text-align: center;
+    background: var(--primarycl);
+    
+    padding: 1vh;
+    
+
+    
+}
+.writers h1{
+    color: var(--white);
+}
+a img{
+    display: block;
+    width: 100%;
+}
+.fspace{
+    height: 20vh;
+}
+.auto{
+    width: 100%;
+    display: block;
+}
+.books{
+    text-align: center;
+    
+}
+.books>h1{
+    color: var(--primarycl);
+    font-size: 3rem;
+}
+.name p{
+    color: var(--white);
+    width: 15vw;
+}
+.list li a:hover{
+background-color: #04006e;
+color: #fff;
+transform: scale(120%);
+display: block;
+width: 100%;
+}
+.grnarea{
+    height: 5vh;
+    display: flex;
+    background: var(--primarycl);
+}
+.nav{
+    position: fixed;
+
+}
+.b{
+padding: 0.5%;
+}
