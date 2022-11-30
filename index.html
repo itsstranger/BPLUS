@@ -1,212 +1,225 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>bookplus</title>
-  <link rel="stylesheet" href="./style.css">
-<link rel="shortcut icon" href="./bimgs/bookplus.png" type="image/png">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookPlus</title>
+    <link rel="shortcut icon" href="./bimgs/bookplus.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<body>
     <div class="nav">
-    <div class="grnarea">
+        <div class="blarea">
+            <div class="login">
+                <p>login</p>
+                
+            </div>
+        
+        </div>
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="./bimgs/bookplus.png" alt=""></a></div>
+                <div class="list">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="books.html">Books</a></li>
+                        <li><a href="publish.html">Publish</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
             
-    </div>
-    <div class="navbar">
-
-        <div class="logo">
-            <img src="https://www.bookplus.co.in/resources/images/logo.png" alt="">
-        </div>
-        <div class="list">
-            <ul>
-                <li><a href="">Books</a></li>
-                <li><a href="">Offers</a></li>
-                <li><a href="">Publish</a></li>
-                <li><a href="">Contact</a></li>
-                <li><a class="one" href="">About</a></li>
-            </ul>
         </div>
     </div>
-</div>
+    
     <div class="fspace"></div>
-    <div class="blarea"></div>
-    <div class="new-arrival">
-        <img class="auto" name="slides" src="" alt="">
-        <!-- <script>
-            var i = 0;
-            var images = [];
-            var time = 2000;
 
-            images[0] = '1.jpg';
-            images[1] = '2.jpg';
-            images[2] = '4.jpg';
-            images[3] = '5.jpg';
-            images[4] = '6.jpg';
-            images[5] = '7.jpg';
-            images[6] = '8.jpg';
-            images[7] = '9.jpg';
+    <div class="bla"></div>
 
-            function changeImg(){
-                document.slides.src = images[i];
-                    if (i < images.length - 1){
-                        i++;
-                    }else{
-                        i = 0;
-                    }
-            setTimeout("changeImg()", time);
-            }
-            window.onload = changeImg;
-        </script> -->
-        <!-- <div class="wrapper">
-            <div class="a"><img src="./bimgs/Banner_1641613295.jpg" alt=""></div>
-            <div class="a"><img src="./bimgs/Banner_1645676084.jpg" alt=""></div>
-            <div class="a"><img src="./bimgs/Banner_1649247979.jpg" alt=""></div>
-            <div class="a"><img src="./bimgs/Banner_1649319310.jpeg" alt=""></div>
-            <div class="a"><img src="./bimgs/Banner_1652352304.jpg" alt=""></div>
-        </div> -->
-        .
+    <div class="slider">
+    <img src="" alt="" name="slides">
     </div>
-    <div class="blarea"></div>
+
+    <div class="bla"></div>
+
     <div class="space"></div>
-    <div class="books">
-        <h1>BOOKS</h1>
-        <div class="container">
-            <div class="super">
-                <div class="card-1">
-                    <div class="img"><img class="model" src="https://www.thenewsminute.com/sites/default/files/images/Qabar_Book_271220_650.jpg" alt=""></div>
-                    <div class="data">
-                        <h1>BOOK_NAME</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime possimus facere magni omnis repellendus ipsa quidem consectetur aliquam totam veniam.</p>
-                    </div>
-                    </div>
-                <div class="card-2">
-                    <div class="img"><img class="model" src="https://www.thenewsminute.com/sites/default/files/images/Qabar_Book_271220_650.jpg" alt=""></div>
-                    <div class="data">
-                        <h1>BOOK_NAME</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime possimus facere magni omnis repellendus ipsa quidem consectetur aliquam totam veniam.</p>
-                    </div>
-                    </div>
-                <div class="card-3">
-                    <div class="img"><img class="model" src="https://www.thenewsminute.com/sites/default/files/images/Qabar_Book_271220_650.jpg" alt=""></div>
-                    <div class="data">
-                        <h1>BOOK_NAME</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime possimus facere magni omnis repellendus ipsa quidem consectetur aliquam totam veniam.</p>
-                    </div>
-                </div>
-                <div class="card-4">
-                    <div class="img"><img class="model" src="https://www.thenewsminute.com/sites/default/files/images/Qabar_Book_271220_650.jpg" alt=""></div>
-                    <div class="data">
-                        <h1>BOOK_NAME</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime possimus facere magni omnis repellendus ipsa quidem consectetur aliquam totam veniam.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="space"></div>
-            <div class="supera" id="ef2">
-                <div class="card-1">
-                    <div class="img"><img class="model" src="https://www.thenewsminute.com/sites/default/files/images/Qabar_Book_271220_650.jpg" alt=""></div>
-                    <div class="data">
-                        <h1>BOOK_NAME</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime possimus facere magni omnis repellendus ipsa quidem consectetur aliquam totam veniam.</p>
-                    </div>
-                    </div>
-                <div class="card-2">
-                    <div class="img"><img class="model" src="https://www.thenewsminute.com/sites/default/files/images/Qabar_Book_271220_650.jpg" alt=""></div>
-                    <div class="data">
-                        <h1>BOOK_NAME</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime possimus facere magni omnis repellendus ipsa quidem consectetur aliquam totam veniam.</p>
-                    </div>
-                    </div>
-                <div class="card-3">
-                    <div class="img"><img class="model" src="https://www.thenewsminute.com/sites/default/files/images/Qabar_Book_271220_650.jpg" alt=""></div>
-                    <div class="data">
-                        <h1>BOOK_NAME</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime possimus facere magni omnis repellendus ipsa quidem consectetur aliquam totam veniam.</p>
-                    </div>
-                </div>
-                <div class="card-4">
-                    <div class="img"><img class="model" src="https://www.thenewsminute.com/sites/default/files/images/Qabar_Book_271220_650.jpg" alt=""></div>
-                    <div class="data">
-                        <h1>BOOK_NAME</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime possimus facere magni omnis repellendus ipsa quidem consectetur aliquam totam veniam.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="space"></div>
-            <div class="superb" id="ef3">
-                <div class="card-1">
-                    <div class="img"><img class="model" src="https://www.thenewsminute.com/sites/default/files/images/Qabar_Book_271220_650.jpg" alt=""></div>
-                    <div class="data">
-                        <h1>BOOK_NAME</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime possimus facere magni omnis repellendus ipsa quidem consectetur aliquam totam veniam.</p>
-                    </div>
-                    </div>
-                <div class="card-2">
-                    <div class="img"><img class="model" src="https://www.thenewsminute.com/sites/default/files/images/Qabar_Book_271220_650.jpg" alt=""></div>
-                    <div class="data">
-                        <h1>BOOK_NAME</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime possimus facere magni omnis repellendus ipsa quidem consectetur aliquam totam veniam.</p>
-                    </div>
-                    </div>
-                <div class="card-3">
-                    <div class="img"><img class="model" src="https://www.thenewsminute.com/sites/default/files/images/Qabar_Book_271220_650.jpg" alt=""></div>
-                    <div class="data">
-                        <h1>BOOK_NAME</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime possimus facere magni omnis repellendus ipsa quidem consectetur aliquam totam veniam.</p>
-                    </div>
-                </div>
-                <div class="card-4">
-                    <div class="img"><img class="model" src="https://www.thenewsminute.com/sites/default/files/images/Qabar_Book_271220_650.jpg" alt=""></div>
-                    <div class="data">
-                        <h1>BOOK_NAME</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime possimus facere magni omnis repellendus ipsa quidem consectetur aliquam totam veniam.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="space"></div>
-</body>
-<div class="writers">
-    <h1>Our Writers</h1>
-    <div class="z">
-        <div class="b">
-            <div class="roundimg"><img src="./bimgs/VC for home page.jpeg" alt=""></div>
-            <div class="name"><p>Bahaudheen muhammed nadwi</p></div>
-        </div>
-        <div class="b">
-            <div class="roundimg"><img src="./bimgs/VC for home page.jpeg" alt=""></div>
-            <div class="name"><p>Bahaudheen muhammed nadwi</p></div>
-        </div>
-        <div class="b">
-            <div class="roundimg"><img src="./bimgs/VC for home page.jpeg" alt=""></div>
-            <div class="name"><p>Bahaudheen muhammed nadwi</p></div>
-        </div>
-        <div class="b">
-            <div class="roundimg"><img src="./bimgs/VC for home page.jpeg" alt=""></div>
-            <div class="name"><p>Bahaudheen muhammed nadwi</p></div>
-        </div>
-        <div class="b">
-            <div class="roundimg"><img src="./bimgs/VC for home page.jpeg" alt=""></div>
-            <div class="name"><p>Bahaudheen muhammed nadwi</p></div>
-        </div>
 
-    </div>
-</div>
+    <div class="shop-books">
+        <div class="trending">
+        <h1>Trending Books Here</h1>
+        <div class="container-b">
+            <a href=""><div class="card">
+            <img src="./bimgs/1j.jpg" alt="">
+            <h2>Book Name</h2>
+            <strong>Author</strong>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nulla doloremque deserunt, obcaecati nostrum est.</p>
+            </div></a>
+
+            <a href=""><div class="card">
+            <img src="./bimgs/1j.jpg" alt="">
+            <h2>Book Name</h2>
+            <strong>Author</strong>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nulla doloremque deserunt, obcaecati nostrum est.</p>
+            </div></a>
+            
+            <a href=""><div class="card">
+            <img src="./bimgs/1j.jpg" alt="">
+            <h2>Book Name</h2>
+            <strong>Author</strong>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nulla doloremque deserunt, obcaecati nostrum est.</p>
+            </div></a>
+
+            <a href=""><div class="card">
+            <img src="./bimgs/1j.jpg" alt="">
+            <h2>Book Name</h2>
+            <strong>Author</strong>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nulla doloremque deserunt, obcaecati nostrum est.</p>
+            </div></a>
+
+            <a href=""><div class="card">
+            <img src="./bimgs/1j.jpg" alt="">
+            <h2>Book Name</h2>
+            <strong>Author</strong>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nulla doloremque deserunt, obcaecati nostrum est.</p>
+            </div></a>
+        </div>
+        </div>
+       
+        <div class="space"></div>
+
+        <div class="top">
+        <h1>Top Books Here</h1>
+        <div class="container-b">
+            <a href=""><div class="card">
+            <img src="./bimgs/1j.jpg" alt="">
+            <h2>Book Name</h2>
+            <strong>Author</strong>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nulla doloremque deserunt, obcaecati nostrum est.</p>
+            </div></a>
+
+            <a href=""><div class="card">
+            <img src="./bimgs/1j.jpg" alt="">
+            <h2>Book Name</h2>
+            <strong>Author</strong>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nulla doloremque deserunt, obcaecati nostrum est.</p>
+            </div></a>
+
+            <a href=""><div class="card">
+            <img src="./bimgs/1j.jpg" alt="">
+            <h2>Book Name</h2>
+            <strong>Author</strong>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nulla doloremque deserunt, obcaecati nostrum est.</p>
+            </div></a>
+
+            <a href=""><div class="card">
+            <img src="./bimgs/1j.jpg" alt="">
+            <h2>Book Name</h2>
+            <strong>Author</strong>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nulla doloremque deserunt, obcaecati nostrum est.</p>
+            </div></a>
+
+            <a href=""><div class="card">
+            <img src="./bimgs/1j.jpg" alt="">
+            <h2>Book Name</h2>
+            <strong>Author</strong>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nulla doloremque deserunt, obcaecati nostrum est.</p>
+            </div></a>
+        </div>
+        </div>
+       
 <div class="space"></div>
-<div class="footer">
-    <div class="dete">
+
+        <div class="Best">
+        <h1>Best Choice Here</h1>
+        <div class="container-b">
+            <a href=""><div class="card">
+            <img src="./bimgs/1j.jpg" alt="">
+            <h2>Book Name</h2>
+            <strong>Author</strong>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nulla doloremque deserunt, obcaecati nostrum est.</p>
+            </div></a>
+
+            <a href=""><div class="card">
+            <img src="./bimgs/1j.jpg" alt="">
+            <h2>Book Name</h2>
+            <strong>Author</strong>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nulla doloremque deserunt, obcaecati nostrum est.</p>
+            </div></a>
+
+            <a href=""><div class="card">
+            <img src="./bimgs/1j.jpg" alt="">
+            <h2>Book Name</h2>
+            <strong>Author</strong>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nulla doloremque deserunt, obcaecati nostrum est.</p>
+            </div></a>
+
+            <a href=""><div class="card">
+            <img src="./bimgs/1j.jpg" alt="">
+            <h2>Book Name</h2>
+            <strong>Author</strong>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nulla doloremque deserunt, obcaecati nostrum est.</p>
+            </div></a>
+
+            <a href=""><div class="card">
+            <img src="./bimgs/1j.jpg" alt="">
+            <h2>Book Name</h2>
+            <strong>Author</strong>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nulla doloremque deserunt, obcaecati nostrum est.</p>
+            </div></a>
+        </div>
+        </div>
 
     </div>
-    <div class="map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.8507606284447!2d75.90570321460852!3d11.049813792136336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba64d797207edcf%3A0xe1fab913e7f24ab6!2sBOOK%20PLUS%20PUBLISHERS%20-%20CHEMMAD!5e0!3m2!1sen!2sin!4v1669702682469!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
-</div>
-</html>
-<!-- partial -->
-  <script  src="./script.js"></script>
-  <script src="./script1.js"></script>
+
+    <div class="space"></div>
+
+    <div class="writers">
+        <h1>Our writers</h1>
+        <div class="writers-container">
+            <div class="card-w">
+                <img src="./bimgs/VC for home page.jpeg" alt="">
+                <p>Usthad</p>
+            </div>
+            
+            <div class="card-w">
+                <img src="./bimgs/VC for home page.jpeg" alt="">
+                <p>Usthad</p>
+            </div>
+
+            <div class="card-w">
+                <img src="./bimgs/VC for home page.jpeg" alt="">
+                <p>Usthad</p>
+            </div>
+
+            <div class="card-w">
+                <img src="./bimgs/VC for home page.jpeg" alt="">
+                <p>Usthad</p>
+            </div>
+
+            <div class="card-w">
+                <img src="./bimgs/VC for home page.jpeg" alt="">
+                <p>Usthad</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.8507606284447!2d75.90570321460852!3d11.049813792136336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba64d797207edcf%3A0xe1fab913e7f24ab6!2sBOOK%20PLUS%20PUBLISHERS%20-%20CHEMMAD!5e0!3m2!1sen!2sin!4v1669783086700!5m2!1sen!2sin" width="400" height="250"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <div class="about">
+            <h1>About Us</h1>
+            <p>Darul Huda Islamic University <br>
+                Hidaya Nagar, Chemmad, Tirurangadi PO <br>
+                Malappuram Dist. Pin: 676306, Kerala, India <br>
+                <br>
+                Email : info@dhiu.in | Phone : +91494-2463155 <br>
+                Fax : 0494 2460575</p>
+            
+        </div>
+    </div>
 </body>
 </html>
